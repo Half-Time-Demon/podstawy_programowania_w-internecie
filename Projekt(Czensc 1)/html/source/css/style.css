@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.slideout-menu {
+  display: none;
+}
+
+/*--------------------*/
+@font-face {
+  font-family: "colorfont";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/Agreloycazure-BWLMn.ttf");
+}
+@font-face {
+  font-family: "seguili";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/kozystane_teraz/seguili.ttf");
+}
+@font-face {
+  font-family: "seguibli";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../content/fonts/kozystane_teraz/seguibli.ttf");
+}
+.menu .menu-center {
+  text-align: center;
+  background-color: rgb(32, 32, 32);
+  height: 40px;
+}
+.menu .menu-center .menu-line {
+  padding-top: 10px;
+  margin: 0px 50px;
+}
+.menu .menu-center .menu-line ul {
+  text-align: right;
+}
+.menu .menu-center .menu-line ul li {
+  padding: 10px;
+  display: inline;
+}
+.menu .menu-center .menu-line ul li a {
+  color: rgb(226, 223, 223);
+}
+.menu .menu-center .menu-line ul li:hover {
+  background-color: rgba(110, 108, 108, 0.7);
+}
+.menu .menu-center .menu-line ul li:hover a {
+  color: rgb(238, 183, 183);
+}
+.menu .menu-center .menu-line ul .curent-page {
+  background-color: rgba(110, 108, 108, 0.7);
+}
+.menu .menu-center .menu-line ul .curent-page a {
+  color: rgb(207, 85, 85);
+}
+
+h1 {
+  position: absolute;
+  margin: 10px 0px 0px 10px;
+  font-weight: bold;
+}
+h1 a {
+  color: aqua;
+}

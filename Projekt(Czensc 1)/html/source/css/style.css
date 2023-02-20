@@ -149,3 +149,24 @@ h1 {
 h1 a {
   color: aqua;
 }
+
+.footer {
+  background-color: rgb(32, 32, 32);
+  height: 80px;
+  clear: both;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer .copyright {
+  border-top: rgba(206, 204, 204, 0.7) 2px solid;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+.footer .copyright p {
+  margin-top: 2px;
+  text-align: center;
+  color: #f0f8ff;
+  font-size: 10px;
+}

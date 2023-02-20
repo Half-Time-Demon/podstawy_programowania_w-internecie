@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgb(32, 32, 32);
+    height: 80px;
+    clear: both;
+    position:absolute;
+    bottom:0;
+    width:100%;
+
+    .copyright{
+        border-top: rgba($color: #cecccc, $alpha: 0.7) 2px solid;
+        position:absolute;
+        bottom:5px;
+        width:100%;
+        p{
+            margin-top: 2px;
+            text-align: center;
+            color: #f0f8ff;
+            font-size: 10px;
+        }
+    }
+    
+}

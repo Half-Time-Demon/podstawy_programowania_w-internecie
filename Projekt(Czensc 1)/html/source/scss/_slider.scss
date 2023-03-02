@@ -1,0 +1,70 @@
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+    height: 400px;
+}
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.text {
+    color: #ebe3e1;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    b{
+        background-color: rgba($color: #000000, $alpha: 0.25);
+    }
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    margin: 0 2px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 50%;
+}
+
+.dot-container{
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align:center;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}

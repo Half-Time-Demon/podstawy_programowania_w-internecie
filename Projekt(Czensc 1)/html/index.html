@@ -12,7 +12,7 @@
     
     <body>
         <header>
-            <h1><a href="./index.html">DOMEK ZWIEZONT</a></h1>
+            <h1><a href="./index.html">DOMEK ŹWIERZĄT</a></h1>
             <div class="menu" >
                 <div class="menu-center">
                     <div class="menu-line">
@@ -36,10 +36,70 @@
                     </div>
                 </div>
             </div>
-
         </header>
 
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+            <img src="source/img/img_1.jpg" style="width:100%"/>
+             <div class="text"><b>Wracamy źwierzont</b></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="source/img/img_2.avif" style="width:100%"/>
+            <div class="text"><b>Darujemy zwierząt</b></div>
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="source/img/img_3.webp" style="width:100%"/>
+             <div class="text"><b>Przyjmujemy zwierząt</b></div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="source/img/img_4.jpg" style="width:100%"/>
+            <div class="text"><b>Lapiemy zwierząt</b></div>
+          </div>
+          
+          <div class="dot-container" style="">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+        </div>
+        <br/>
         
+        <section class="page-title-light no-print">
+            <div class="auto-container">
+                <div class="clearfix">
+                    <h2>O nas</h2>
+                    <br/>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur voluptatum voluptate iusto minima deleniti! Animi, ipsum. Minima dignissimos, vel repudiandae ut neque expedita sapiente perferendis sequi et maiores quas quasi nulla laboriosam saepe dolores error natus? Animi iusto, adipisci ipsum sint quisquam omnis impedit cum tempore possimus labore non esse quaerat exercitationem sunt sit accusamus quis obcaecati itaque officia veniam voluptatum similique? Aut doloremque, nostrum accusantium expedita quisquam animi saepe neque quis praesentium ab voluptatum architecto suscipit perferendis, vel quam aliquid deserunt ex. Cumque corporis cum inventore atque reprehenderit eius amet ea! Ipsam ex, perferendis quae reprehenderit aut nulla explicabo.</p>
+                </div>
+            </div>
+        </section>
+        <br/>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+          
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 3000); 
+            }
+        </script>
 
         <footer>
             <div class="footer">

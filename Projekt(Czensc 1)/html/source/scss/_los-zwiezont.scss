@@ -20,6 +20,12 @@
         border-bottom: 1px solid #ccc;
         
     }
+    h2{
+        font-weight: 300;
+        color: #444444;
+        padding-bottom: 0.2em;
+        border-bottom: 1px solid #ccc;
+    }
 }
 
 .table-title-light {
@@ -47,6 +53,9 @@
     }
     h3 {
         font-size: 24px;
+    }
+    h2 {
+        font-size: 36px;
     }
 }
 

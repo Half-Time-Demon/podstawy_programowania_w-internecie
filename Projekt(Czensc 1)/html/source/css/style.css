@@ -95,19 +95,25 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-family: "colorfont";
   font-style: normal;
   font-weight: 500;
-  src: url("../content/fonts/Agreloycazure-BWLMn.ttf");
+  src: url("../fonts/Agreloycazure-BWLMn.ttf");
 }
 @font-face {
   font-family: "seguili";
   font-style: normal;
   font-weight: 500;
-  src: url("../content/fonts/kozystane_teraz/seguili.ttf");
+  src: url("../fonts/seguili.ttf");
 }
 @font-face {
   font-family: "seguibli";
   font-style: normal;
   font-weight: 500;
-  src: url("../content/fonts/kozystane_teraz/seguibli.ttf");
+  src: url("../fonts/seguibli.ttf");
+}
+@font-face {
+  font-family: "Climate Crisis";
+  font-style: normal;
+  font-weight: 36px;
+  src: url("../fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf");
 }
 .menu .menu-center {
   text-align: center;
@@ -144,9 +150,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 h1 {
   position: absolute;
   margin: 10px 0px 0px 10px;
-  font-weight: bold;
+  font-size: 20px;
 }
 h1 a {
+  font-family: "Climate Crisis", cursive;
   color: rgb(16, 175, 24);
 }
 
